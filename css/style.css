@@ -1,0 +1,239 @@
+@font-face {
+    font-family: 'Exo2-Light';
+    src: url("/fonts/Exo2-Light.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Exo2-Light", sans-serif;
+}
+
+header{
+    background-image: url("/img/header_background.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 980px;
+    width: 100%;
+}
+
+.navbar-nav{
+    background-color: rgba(76, 33, 183, 0.36);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 200px;
+    height: 100px;
+    margin-left: 190px;
+}
+
+.img-contact{
+    width: 50px;
+    height: 50px;
+}
+
+.contacts{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 190px;
+    color: white;
+    font-size: 14pt;
+    letter-spacing: 3px;
+    font-weight: lighter;
+}
+
+.phone{
+    width: 40px;
+    height: 40px;
+}
+
+.number{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 260px;
+}
+
+.header-filter{
+    width: 100%;
+    background-color: rgba(40, 12, 84, 0.47);
+    height: 980px;
+}
+
+.header-line{
+    background-color: rgba(76, 33, 183, 0.36);
+    height: 880px;
+    width: 600px;
+    margin-left: 500px;
+}
+
+.text-welcome{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    color: white;
+    margin: -600px 0 0 800px;
+}
+
+.heading{
+    font-size: 40pt;
+    margin-bottom: 50px;
+    width: 700px;
+}
+
+.paragraph{
+    font-size: 20pt;
+    width: 700px;
+    margin-bottom: 50px;
+}
+
+.catalog-btn{
+    width: 250px;
+    padding: 17px;
+    border: none;
+    font-size: 15pt;
+    color: #000000;
+    background-color: rgba(176, 152, 255, 0.84);
+}
+
+.catalog-btn:hover{
+    background-color: rgb(87, 37, 250);
+    color: #ffffff;
+}
+
+.block{
+    margin: 100px 0 100px 0;
+    text-align: center;
+}
+
+.title{
+    font-size: 20pt;
+}
+
+.slider-button{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    margin: 50px 0 0 400px;
+}
+
+.slider-button button{
+    padding: 20px;
+    background-color: white;
+    border: 1px solid darkslateblue;
+    width: 70px;
+}
+
+.slider-button button:hover{
+    background-color: rgba(128, 128, 128, 0.83);
+}
+
+.slider-img{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0 0 400px;
+    width: 1000px;
+}
+
+.slider-img img{
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.block-giro{
+    display: flex;
+    flex-direction: column;
+    width: 1040px;
+    margin: 90px auto;
+    font-size: 18pt;
+}
+
+.block-giro p{
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.giro-advantages{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.giro-advantages img{
+    margin-left: 50px;
+    width: 400px;
+    height: 300px;
+}
+
+.giro-advantages-text{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.advantages-text{
+    margin-top: 50px;
+}
+
+.products{
+    display: flex;
+    width: 1000px;
+    margin: auto;
+}
+
+.products-card{
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 30px;
+    border: 1px solid darkslateblue;
+}
+
+.products-card p{
+    margin-top: 20px;
+}
+
+.products-card img{
+    width: 300px;
+    height: 200px;
+    margin: auto;
+}
+
+.products-card button{
+    border: none;
+    padding: 10px;
+    width: 150px;
+    background-color: rgba(40, 12, 84, 0.38);
+    color: white;
+    font-size: 13pt;
+    margin: 20px auto;
+
+}
+
+.block-operators{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(76, 33, 183, 0.36);
+}
+
+.block-operators-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px;
+}
+
+.block-operators-2 img{
+    width: 300px;
+    height: 300px;
+}
